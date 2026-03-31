@@ -1,25 +1,25 @@
 # AdaProb
 
-Machine unlearning for deep neural networks with support for knowledge distillation, selective forgetting, and membership inference evaluation.
+Machine unlearning for deep neural networks with support for selective forgetting and membership inference evaluation.
 
 ## Repository Structure
 
 ```
 .
-├── main.py                  # Training entry point
-├── main_merged.py           # Alternative training script with interclass confusion support
-├── models.py                # Model architectures (AllCNN, ResNet, etc.)
-├── datasets.py              # Dataset loaders (binary classification)
-├── datasets_multiclass.py   # Dataset loaders (multiclass classification)
-├── loops.py                 # Training/validation loops
-├── layers.py                # Custom layers
-├── logger.py                # Training logger
-├── lacuna.py                # Lacuna dataset classes
-├── image.py                 # Image visualization utilities
-├── create_lacuna.py         # Script to generate Lacuna datasets
-├── convert_parameters.py    # Parameter conversion utilities
-├── refine_prediction.py     # Prediction refinement utilities
-├── notebooks/               # Experiment notebooks
+├── main.py
+├── main_merged.py
+├── models.py
+├── datasets.py
+├── datasets_multiclass.py
+├── loops.py
+├── layers.py
+├── logger.py
+├── lacuna.py
+├── image.py
+├── create_lacuna.py
+├── convert_parameters.py
+├── refine_prediction.py
+├── notebooks/
 │   ├── small_scale_unlearning*.ipynb
 │   ├── large_scale_unlearning*.ipynb
 │   ├── large_scale_ictest*.ipynb

@@ -1,4 +1,4 @@
-# AdaProb
+# AdaProb: Efficient Machine Unlearning via Adaptive Probability
 
 Machine unlearning for deep neural networks with support for selective forgetting and membership inference evaluation.
 

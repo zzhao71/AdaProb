@@ -43,6 +43,10 @@ python main.py --dataset <dataset> --model <model> [options]
 
 See `python main.py --help` for all available options.
 
+## Acknowledgements
+
+This project uses code from [SCRUB](https://github.com/meghdadk/SCRUB).
+
 ## License
 
 Academic Software License -- non-commercial use only. See [LICENSE](LICENSE) for details.
